@@ -5,3 +5,4 @@ def is_prime(n):
         else:
             print(i)
 
+is_prime(20)
