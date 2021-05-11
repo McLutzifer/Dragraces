@@ -1,8 +1,7 @@
-from timer import Timer
+import time
+#from reader import feed
 
-t = Timer
-
-t.start()
+tic = time.perf_counter()
 
 def is_prime(num):
     flag = False
@@ -16,8 +15,9 @@ def is_prime(num):
 for n in range(2, 29):
     is_prime(n)
 
+toc = time.perf_counter()
 
-t.stop()
+print(f"time: {toc - tic:0.04f} seconds")
 
 
 
