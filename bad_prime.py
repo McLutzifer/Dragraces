@@ -1,7 +1,7 @@
 import time
-#from reader import feed
 
 tic = time.perf_counter()
+
 
 def is_prime(num):
     flag = False
@@ -13,6 +13,7 @@ def is_prime(num):
         print(num, "is not a prime number")
     else:
         print(num, "is a PRIME")
+
 
 for n in range(2, 200):
     is_prime(n)
