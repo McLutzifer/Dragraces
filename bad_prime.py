@@ -1,3 +1,8 @@
+from time import Timer
+
+t = Timer
+
+t.start()
 
 def is_prime(num):
     flag = False
@@ -12,7 +17,7 @@ for n in range(2, 29):
     is_prime(n)
 
 
-
+t.stop()
 
 
 
