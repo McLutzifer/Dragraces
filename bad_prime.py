@@ -14,7 +14,7 @@ def is_prime(num):
     else:
         print(num, "is a PRIME")
 
-for n in range(2, 295677):
+for n in range(2, 200):
     is_prime(n)
 
 toc = time.perf_counter()
