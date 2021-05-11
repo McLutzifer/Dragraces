@@ -9,10 +9,12 @@ def is_prime(num):
         if (num % i) == 0:
             flag = True
             break
-    if not flag:
-        print(num, "is  a prime number")
+    if flag:
+        print(num, "is not a prime number")
+    else:
+        print(num, "is a PRIME")
 
-for n in range(2, 29):
+for n in range(2, 295677):
     is_prime(n)
 
 toc = time.perf_counter()
