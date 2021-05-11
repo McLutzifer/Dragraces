@@ -1,4 +1,4 @@
-from time import Timer
+from timer import Timer
 
 t = Timer
 
